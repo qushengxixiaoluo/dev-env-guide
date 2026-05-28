@@ -14,11 +14,16 @@ AI agents default to brute-force filesystem search when locating tools — slow,
 ## Install
 
 ```bash
-# In Claude Code
-/plugin install dev-env-guide@local
+# Clone and install in Claude Code
+git clone https://github.com/qushengxixiaoluo/dev-env-guide.git
 ```
 
-Or copy the `SKILL.md` into your project's `.claude/skills/` directory.
+Then in Claude Code:
+```
+/plugin install ./dev-env-guide
+```
+
+Or simply copy `SKILL.md` into your project's `.claude/skills/dev-env-guide/` directory.
 
 ## Supported SDKs
 
