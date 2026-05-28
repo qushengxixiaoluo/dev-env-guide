@@ -115,10 +115,11 @@ foreach ($drive in $drives) {
 }
 ```
 
-Or use `cmd` for broader coverage:
+Or use `cmd` for broader coverage (no depth limit). First list available drives with `wmic logicaldisk get name`, then search each:
 ```cmd
-dir /s /b C:\*python* D:\*python* E:\*python* 2>nul
+dir /s /b C:\*<sdk-name>* D:\*<sdk-name>* 2>nul
 ```
+Replace drive letters with those actually present on the system.
 
 ### macOS / Linux (Bash)
 
