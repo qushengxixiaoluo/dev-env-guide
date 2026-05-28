@@ -26,4 +26,4 @@ The skill knows the canonical environment variables for 20+ development tools in
 
 ## License
 
-GPL v3
+MIT
